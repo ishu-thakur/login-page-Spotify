@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Varela&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet"> -->
+  <style>
+    .a
+    {
+      display :flex;
+      flex-direction:row;
+      width: auto;
+      heigh: 100px;
+      margin: 12px;
+      border-bottom: .5px solid lightgrey;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+    }
+    .center
+    {
+      display:flex;
+      margin: 12px;
+      flex-direction: row;
+      align-items: center;
+
+    }
+    .b
+    {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+      width:auto;
+      margin: 12px;
+      text-align: center;
+      align-items: center;
+
+      /* background-color: lightpink; */
+    }
+    .c
+    {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+      width:auto;
+      margin: 1px;
+      padding: 20px 32px;
+      text-align: center;
+      align-items: center;
+
+      /* background-color:red; */
+    }
+    .d
+    {
+      display: flex;
+      flex-direction: column;
+      height: 100px;
+      width:auto;
+      margin: 12px;
+      text-align: center;
+      align-items: center;
+
+      /* background-color: lightgreen; */
+    }
+
+      .e
+      {
+        display: flex;
+        flex-direction:row;
+        height: 100px;
+        width:290px;
+        /* margin: 12px; */
+        /* text-align: center ; */
+        align-items: center ;
+        background-color: white;
+        /* font-family:'Be+Vietnam'; */
+
+      }
+      .e input{
+        margin-left: 20px;
+      }
+      .f
+      {
+        padding: 2px;
+
+      }
+
+    .button1
+    {
+      font-family: 'Varela', sans-serif; font-size: 14.5px;
+      background-color: RGB(18, 150, 53);
+      color: white;
+      text-align: center;
+      padding: 16px 32px;
+      margin: 4px 2px;
+      width: 400px;
+      border-radius: 35px;
+
+    }
+    .button1:hover
+    {
+      background-color: lightgreen;
+      color:white;
+      box-shadow: 10px 10px 20px RGB(18, 150, 53);
+      transition-duration: 1s;
+      transform: translate(0px,-5px);
+    }
+    .button2
+    {
+      font-family: 'Varela', sans-serif; font-size: 14.5px;
+      background-color: RGB(16, 30, 181);
+      color: white;
+      text-align: center;
+      padding: 16px 32px;
+      margin: 4px 2px;
+      width: 400px;
+      border-radius: 35px;
+    }
+    .button2:hover
+    {
+      background-color: lightblue;
+      color:white;
+        box-shadow: 10px 10px 20px RGB(70, 67, 247);
+        transition-duration: 1s;
+        transform: translate(0px,-5px);
+    }
+    .button3
+    {
+
+      background-color: white;
+      color: grey;
+      border: 2px solid grey;
+      text-align: center;
+      padding: 16px 32px;
+      margin: 4px 2px;
+      width: 400px;
+      border-radius: 35px;
+      font-family: 'Varela', sans-serif;
+    }
+    .button3:hover
+    {
+      background-color: lightgrey;
+      color:white;
+      box-shadow: 10px 10px 20px lightgrey;
+      transition-duration: 1s;
+      transform: translate(0px,-5px);
+    }
+    .button4
+    {
+      font-family: 'Varela', sans-serif;
+      background-color: RGB(18, 150, 53);
+      color: white;
+      text-align: center;
+      padding: 16px 32px;
+      margin: 4px 2px;
+      width: 150px;
+      position: relative;
+      left: 600px;
+      border-radius: 35px;
+
+    }
+    .button4:hover
+    {
+      background-color: lightgreen;
+      color:white;
+      /*transform: translate(10px,0); to fliker it */
+      box-shadow: 10px 10px 20px RGB(18, 150, 53);
+      transition-duration: 1s;
+      transform: translate(0px,-5px);
+    }
+    .c div
+    {
+      display: flex;
+      flex-direction: column;
+      /* margin: 1px; */
+      height: 100px;
+      width:400px;
+      font-family: 'Varela', sans-serif;
+      /* font-family:'Be+Vietnam'; */
+      /* background-color: lightblue; */
+    }
+
+    .abc{
+      height: 30px;
+      margin: 7px;
+      font-family: 'Varela', sans-serif;
+      /* font-family:'Be+Vietnam'; */
+    }
+    .or{
+      /* font-family:'Be+Vietnam'; */
+      margin-left:437px;
+      display:flex;
+      /* width:100%; */
+      flex-direction: row;
+          }
+    /* .or hr{
+    width:200px;
+  } */
+  .dash{
+    margin:22px 5px 0px 10px;
+    border:1px solid lightgrey ;
+    height:0;
+    width:200px;
+  }
+  .link
+  {
+    /* font-family:'Be+Vietnam'; */
+    position: relative;
+    left: 600px;
+    color: lightgreen;
+  }
+  .link:hover
+  {
+    /* font-family:'Be+Vietnam'; */
+    text-decoration: none;
+    color: lightgreen;
+
+    transition-duration: 1s;
+  }
+  .container
+  {
+    font-family: 'Varela', sans-serif; font-size: 14px;
+    position: relative;
+    left:440px;
+    color: grey;
+  }
+  .dash1
+  {
+    position: relative;
+    left: 470px;
+    width: 400px;
+  }
+  .checkmark
+  {
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  }
+        </style>
+  </head>
+  <body>
+
+
+    <div class="a">
+      <img src="a.png" alt="Spotify" width="200" height="60" class="center">
+    </div>
+
+
+    <div class="b">
+      <button class="button1"><b>LOG  IN  WITH  PHONE  NUMBER</b></button>
+        <button class="button2"><b>LOG IN WITH FACEBOOK</b></button>
+    </div>
+    <br><br>
+<div class='or'>
+<div class='dash'></div>
+  <p>OR</p>
+  <div class='dash'></div>
+</div>
+    <div class="c">
+      <div class="f">
+      <input class="abc" type="text" name="Email address or username" width="400" placeholder="Email address or username"></input>
+      <input class="abc" type="text" name="Password" width="400" placeholder="Password" ></input>
+    </div>
+    </div>
+
+
+    <div class="e">
+      <input class="container" type="checkbox" name="Remember Me" checked ><p class="container">Remember me</p></input>
+      <span class="checkmark"></span>
+      <!-- <label for="remember">Remember me</label> -->
+      <button class="button4"><b>LOG IN</b></button>
+    </div>
+    <div class="link">
+      <p><a href="https://www.spotify.com/in/password-reset/" style="color:darkgreen;text-decoration:none">Forgot your password?</a></p>
+
+    </div>
+    <div class="dash1">
+    <hr></hr>
+  </div>
+
+    <div class="d">
+      <p><b>Don't have an account?</b></p>
+      <button class="button3"><b>SIGN UP FOR SPOTIFY</b></button>
+    </div>
+
+<br><br>
+  </div>
+  <div class="dash1">
+  <hr style="height: 100;"></hr>
+</div>
+
+    </body>
+  </html>
